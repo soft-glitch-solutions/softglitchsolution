@@ -13,7 +13,7 @@ export default function Navbar() {
             <div className="flex-shrink-0 flex items-center space-x-2">
               {/* Replace Sparkles with SVG logo */}
               <img 
-                src="../../SoftGlitch.svg" 
+                src="../assets/SoftGlitch.svg" 
                 alt="Soft Glitch Logo" 
                 className="h-8 w-8" 
               />
