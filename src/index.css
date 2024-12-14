@@ -14,10 +14,10 @@
 
 @layer components {
   .btn {
-    @apply inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500;
+    @apply inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-[#247b59] hover:bg-[#1f6f50] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#247b59];
   }
 }
 
 input, textarea {
-  @apply border-gray-300 focus:ring-indigo-500 focus:border-indigo-500;
+  @apply border-gray-300 focus:ring-[#247b59] focus:border-[#247b59];
 }
